@@ -38,7 +38,7 @@ function LatestMovies(props) {
                                                 return (
                                                     <Row>
                                                         <Col>
-                                                            <Button variant="outline-success" className="bookNowButton">{seat[0]} seat - {seat[1]}</Button>
+                                                            <Button variant="outline-success" className="bookNowButton" href={`/booking/${movie.id}?seat=${seat[0]}`}>{seat[0]} seat - {seat[1]}</Button>
                                                         </Col>
                                                     </Row>
                                                 )
@@ -46,7 +46,7 @@ function LatestMovies(props) {
                                             }
                                         </Card.Body>
                                         <Card.Footer>
-                                            <Card.Link className="detailsLink" href={`./details/${movie.id}`}>
+                                            <Card.Link className="detailsLink" href={`/details/${movie.id}`}>
                                                 What's This About? <FiChevronRight />
                                             </Card.Link>
                                         </Card.Footer>
