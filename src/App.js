@@ -9,7 +9,6 @@ import {
   Link
 } from "react-router-dom";
 import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
 import Main from './components/main/Main';
 import Details from './components/details/Details';
 import Booking from './components/booking/Booking';
@@ -23,14 +22,13 @@ function App() {
           <Route exact path="/">
             <Main></Main>
           </Route>
-          <Route path="/details">
+          <Route path="/details/:id">
             <Details></Details>
           </Route>
           <Route path="/booking">
             <Booking></Booking>
           </Route>
         </Switch>
-        <Footer></Footer>
       </div>
     </Router>
   );

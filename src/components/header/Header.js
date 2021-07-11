@@ -10,7 +10,7 @@ function Header() {
             <Form>
                 <InputGroup>
                     <InputGroup.Prepend>
-                        <Button variant="outline-secondary">
+                        <Button variant="outline-success">
                             <FiSearch />
                         </Button>
                     </InputGroup.Prepend>

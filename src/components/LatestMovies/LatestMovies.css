@@ -1,0 +1,21 @@
+.movieDisplay {
+    overflow: auto;
+    width: 100%;
+}
+
+.movieCard {
+    width: 18rem;
+    margin-bottom: 10px;
+}
+
+.bookNowButton {
+    width: 75%;
+    margin-bottom: 5px;
+}
+
+.detailsLink {
+    color: #6c757d;
+}
+.detailsLink:hover {
+    color: #28a745;
+}
