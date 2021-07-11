@@ -129,7 +129,6 @@
   ],
   "transactions": [
     {
-      "name": "charles xavier",
       "email": "x@x.com",
       "movieId": 1,
       "price": "200 THB",
@@ -137,7 +136,6 @@
       "id": 1
     },
     {
-      "name": "Jeral Frex",
       "email": "jfrex@x.com",
       "movieId": 1,
       "price": "200 THB",

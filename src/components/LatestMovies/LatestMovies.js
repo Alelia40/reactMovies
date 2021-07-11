@@ -38,7 +38,7 @@ function LatestMovies(props) {
                                                 return (
                                                     <Row>
                                                         <Col>
-                                                            <Button variant="outline-success" className="bookNowButton" href={`/booking/${movie.id}?seat=${seat[0]}`}>{seat[0]} seat - {seat[1]}</Button>
+                                                            <Button variant="outline-success" className="bookNowButton" href={`/booking/${movie.id}?seat=${seat[0]}`}>{seat[0]} seat - {seat[1] +" "+ movie.currency}</Button>
                                                         </Col>
                                                     </Row>
                                                 )

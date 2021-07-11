@@ -5,7 +5,7 @@ import { FiSearch } from 'react-icons/fi';
 
 function Header() {
     return (
-        <Navbar bg="light" expand="lg" className="justify-content-between" style={{paddingLeft: '10px', paddingRight: '10px'}}>
+        <Navbar bg="light" variant="light" expand="lg" className="justify-content-between" style={{paddingLeft: '10px', paddingRight: '10px', marginBottom: '10px'}}>
             <Navbar.Brand href="/">Movie Tickets</Navbar.Brand>
             <Form>
                 <InputGroup>
