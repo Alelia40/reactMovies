@@ -129,18 +129,114 @@
   ],
   "transactions": [
     {
-      "email": "x@x.com",
-      "movieId": 1,
-      "price": "200 THB",
-      "ticketType": "NORMAL",
+      "email": "s",
+      "date": "7/11/2021",
+      "time": "7:00",
+      "movieId": "2",
+      "movieTitle": "Wonder Woman",
+      "ticketType": "sofa",
+      "ticketCount": 1,
+      "amount": "600 THB",
+      "id": 0
+    },
+    {
+      "email": "s",
+      "date": "7/11/2021",
+      "time": "7:00",
+      "movieId": "2",
+      "movieTitle": "Wonder Woman",
+      "ticketType": "sofa",
+      "ticketCount": 1,
+      "amount": "600 THB",
       "id": 1
     },
     {
-      "email": "jfrex@x.com",
-      "movieId": 1,
-      "price": "200 THB",
-      "ticketType": "NORMAL",
+      "email": "s",
+      "date": "7/11/2021",
+      "time": "7:00",
+      "movieId": "1",
+      "movieTitle": "Thor Ragnarok",
+      "ticketType": "superior",
+      "ticketCount": 1,
+      "amount": "300 THB",
       "id": 2
+    },
+    {
+      "email": "john@johnjohn.com",
+      "date": "7/11/2021",
+      "time": "7:30",
+      "movieId": "1",
+      "movieTitle": "Thor Ragnarok",
+      "ticketType": "superior",
+      "ticketCount": 1,
+      "amount": "300 THB",
+      "id": 3
+    },
+    {
+      "email": "v",
+      "date": "7/11/2021",
+      "time": "7:30",
+      "movieId": "2",
+      "movieTitle": "Wonder Woman",
+      "ticketType": "sofa",
+      "ticketCount": 1,
+      "amount": "600 THB",
+      "id": 4
+    },
+    {
+      "email": "v",
+      "date": "7/11/2021",
+      "time": "7:30",
+      "movieId": "2",
+      "movieTitle": "Wonder Woman",
+      "ticketType": "superior",
+      "ticketCount": 1,
+      "amount": "300 THB",
+      "id": 5
+    },
+    {
+      "email": "akjfhalf",
+      "date": "7/11/2021",
+      "time": "8:30",
+      "movieId": "2",
+      "movieTitle": "Wonder Woman",
+      "ticketType": "superior",
+      "ticketCount": 1,
+      "amount": "300 THB",
+      "id": 6
+    },
+    {
+      "email": "s",
+      "date": "7/11/2021",
+      "time": "8:00",
+      "movieId": "3",
+      "movieTitle": "Logan",
+      "ticketType": "superior",
+      "ticketCount": 1,
+      "amount": "300 THB",
+      "id": 7
+    },
+    {
+      "email": "x@x.com",
+      "date": "7/11/2021",
+      "time": "7:30",
+      "movieId": "2",
+      "movieTitle": "Wonder Woman",
+      "ticketType": "superior",
+      "ticketCount": 1,
+      "amount": "300 THB",
+      "id": 8
+    },
+    {
+      "email": "x",
+      "date": "7/11/2021",
+      "time": "8:00",
+      "movieId": "2",
+      "movieTitle": "Wonder Woman",
+      "ticketType": "superior",
+      "ticketCount": 1,
+      "amount": "300 THB",
+      "id": 9
     }
   ]
 }

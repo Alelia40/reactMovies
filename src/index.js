@@ -9,6 +9,11 @@ import rootReducer from './redux/reducers/Index'
 import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Popper from 'popper.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
+
 const store = createStore(rootReducer, applyMiddleware(thunk));
 
 ReactDOM.render(

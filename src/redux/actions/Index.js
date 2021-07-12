@@ -29,8 +29,7 @@ const fetchDetails = (id) => (dispatch) => {
 }
 
 const addTransaction = (body) => {
-    postTransaction(body)
-    .then(response => console.log(response.json()))
+    return postTransaction(body).then((response) => response.json());
 }
 
 

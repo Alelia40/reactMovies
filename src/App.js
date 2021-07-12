@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {
   BrowserRouter as Router,
@@ -12,6 +11,7 @@ import Header from './components/header/Header';
 import Main from './components/main/Main';
 import Details from './components/details/Details';
 import Booking from './components/booking/Booking';
+import SearchPage from './components/SearchPage/SearchPage';
 
 function App() {
   return (
@@ -21,6 +21,9 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Main></Main>
+          </Route>
+          <Route exact path="/search">
+            <SearchPage></SearchPage>
           </Route>
           <Route path="/details/:id">
             <Details></Details>
