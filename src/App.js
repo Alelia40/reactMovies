@@ -8,10 +8,11 @@ import {
   Link
 } from "react-router-dom";
 import Header from './components/header/Header';
-import Main from './components/main/Main';
 import Details from './components/details/Details';
 import Booking from './components/booking/Booking';
 import SearchPage from './components/SearchPage/SearchPage';
+import LatestMovies from './components/LatestMovies/LatestMovies';
+import Notfound from './components/NotFound/Notfound';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
         <Header></Header>
         <Switch>
           <Route exact path="/">
-            <Main></Main>
+            <LatestMovies></LatestMovies>
           </Route>
           <Route exact path="/search">
             <SearchPage></SearchPage>
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route path="/booking/:id">
             <Booking></Booking>
+          </Route>
+          <Route>
+            <Notfound></Notfound>
           </Route>
         </Switch>
       </div>
