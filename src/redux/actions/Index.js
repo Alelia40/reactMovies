@@ -4,7 +4,7 @@ import {latestMovies, latestMoviesSearch, movieDetails, postTransaction} from ".
 const fetchMovies = () => (dispatch) => {
     dispatch({type: "GET_MOVIES_PENDING"});
 
-    latestMovies()
+    return latestMovies()
     .then(response => response.json())
     .then(data => dispatch({type: "GET_MOVIES_DONE", payload:data}))
     .catch(error => dispatch({type: "GET_MOVIES_ERR", payload:error}))
@@ -13,7 +13,7 @@ const fetchMovies = () => (dispatch) => {
 const fetchMoviesSearch = (query) => (dispatch) => {
     dispatch({type: "GET_SEARCH_PENDING"});
 
-    latestMoviesSearch(query)
+    return latestMoviesSearch(query)
     .then(response => response.json())
     .then(data => dispatch({type: "GET_SEARCH_DONE", payload:data}))
     .catch(error => dispatch({type: "GET_SEARCH_ERR", payload:error}))
@@ -22,7 +22,7 @@ const fetchMoviesSearch = (query) => (dispatch) => {
 const fetchDetails = (id) => (dispatch) => {
     dispatch({type: "GET_DETAILS_PENDING"});
 
-    movieDetails(id)
+    return movieDetails(id)
     .then(response => response.json())
     .then(data => dispatch({type: "GET_DETAILS_DONE", payload:data}))
     .catch(error => dispatch({type: "GET_DETAILS_ERR", payload:error}))

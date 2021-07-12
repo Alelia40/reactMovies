@@ -237,6 +237,50 @@
       "ticketCount": 1,
       "amount": "300 THB",
       "id": 9
+    },
+    {
+      "email": "x",
+      "date": "7/11/2021",
+      "time": "8:00",
+      "movieId": "1",
+      "movieTitle": "Thor Ragnarok",
+      "ticketType": "superior",
+      "ticketCount": 1,
+      "amount": "300 THB",
+      "id": 10
+    },
+    {
+      "email": "x",
+      "date": "7/11/2021",
+      "time": "8:00",
+      "movieId": "1",
+      "movieTitle": "Thor Ragnarok",
+      "ticketType": "superior",
+      "ticketCount": 1,
+      "amount": "300 THB",
+      "id": 11
+    },
+    {
+      "email": "x",
+      "date": "7/11/2021",
+      "time": "8:00",
+      "movieId": "1",
+      "movieTitle": "Thor Ragnarok",
+      "ticketType": "superior",
+      "ticketCount": 1,
+      "amount": "300 THB",
+      "id": 12
+    },
+    {
+      "email": "x",
+      "date": "7/11/2021",
+      "time": "8:00",
+      "movieId": "1",
+      "movieTitle": "Thor Ragnarok",
+      "ticketType": "superior",
+      "ticketCount": 1,
+      "amount": "300 THB",
+      "id": 13
     }
   ]
 }

@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing Component snapshot app component 1`] = `
+<div
+  className="App"
+>
+  <nav
+    className="justify-content-between navbar navbar-expand-lg navbar-light bg-light"
+    style={
+      Object {
+        "marginBottom": "10px",
+        "paddingLeft": "10px",
+        "paddingRight": "10px",
+      }
+    }
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+    >
+      Movie Tickets
+    </a>
+    <form
+      className=""
+      onSubmit={[Function]}
+    >
+      <div
+        className="input-group"
+      >
+        <div
+          className="input-group-prepend"
+        >
+          <button
+            className="btn btn-outline-success"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="11"
+                cy="11"
+                r="8"
+              />
+              <line
+                x1="21"
+                x2="16.65"
+                y1="21"
+                y2="16.65"
+              />
+            </svg>
+          </button>
+        </div>
+        <input
+          className="form-control"
+          id="search"
+          placeholder="Search Movies"
+        />
+      </div>
+    </form>
+  </nav>
+  <div
+    className="container"
+  >
+    <h3>
+      Latest Movies
+    </h3>
+    <hr />
+    <div
+      className="movieDisplay"
+    >
+      <div
+        className="row"
+        style={
+          Object {
+            "flexWrap": "nowrap",
+          }
+        }
+      >
+        <div
+          className="col"
+        >
+          <span>
+            LOADING ...
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`testing Component snapshot booking component 1`] = `
+<div
+  id="bookingWrapper"
+>
+  <div
+    className="container"
+  >
+    <span>
+      LOADING ...
+    </span>
+  </div>
+</div>
+`;
+
+exports[`testing Component snapshot details component 1`] = `
+<div
+  id="detailsWrapper"
+>
+  <div
+    className="container"
+  >
+    <h3>
+      Movie Details
+    </h3>
+    <hr />
+    <span>
+      LOADING ...
+    </span>
+  </div>
+</div>
+`;
+
+exports[`testing Component snapshot header component 1`] = `
+<nav
+  className="justify-content-between navbar navbar-expand-lg navbar-light bg-light"
+  style={
+    Object {
+      "marginBottom": "10px",
+      "paddingLeft": "10px",
+      "paddingRight": "10px",
+    }
+  }
+>
+  <a
+    className="navbar-brand"
+    href="/"
+  >
+    Movie Tickets
+  </a>
+  <form
+    className=""
+    onSubmit={[Function]}
+  >
+    <div
+      className="input-group"
+    >
+      <div
+        className="input-group-prepend"
+      >
+        <button
+          className="btn btn-outline-success"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="11"
+              cy="11"
+              r="8"
+            />
+            <line
+              x1="21"
+              x2="16.65"
+              y1="21"
+              y2="16.65"
+            />
+          </svg>
+        </button>
+      </div>
+      <input
+        className="form-control"
+        id="search"
+        placeholder="Search Movies"
+      />
+    </div>
+  </form>
+</nav>
+`;
+
+exports[`testing Component snapshot latest movies component 1`] = `
+<div
+  className="container"
+>
+  <h3>
+    Latest Movies
+  </h3>
+  <hr />
+  <div
+    className="movieDisplay"
+  >
+    <div
+      className="row"
+      style={
+        Object {
+          "flexWrap": "nowrap",
+        }
+      }
+    >
+      <div
+        className="col"
+      >
+        <span>
+          LOADING ...
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`testing Component snapshot not found component 1`] = `
+<div
+  className="container"
+>
+  <h3>
+    404 Not Found
+  </h3>
+  <br />
+  <a
+    href="/"
+  >
+    Return Home
+  </a>
+</div>
+`;
+
+exports[`testing Component snapshot search page component 1`] = `
+<div
+  className="container"
+>
+  <h3>
+    Search Results
+  </h3>
+  <hr />
+  <div
+    className="movieDisplay"
+  >
+    <div
+      className="row"
+      style={
+        Object {
+          "flexWrap": "nowrap",
+        }
+      }
+    >
+      <div
+        className="col"
+      >
+        <span>
+          LOADING ...
+        </span>
+      </div>
+    </div>
+  </div>
+  <a
+    className="btn btn-outline-success"
+    href="/"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+  >
+    Return To Home
+  </a>
+</div>
+`;
